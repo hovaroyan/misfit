@@ -4,9 +4,9 @@ import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SharedModule } from './shared/shared.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeModule } from './home/home.module';
 
 
 @NgModule({
@@ -20,7 +20,7 @@ import { FooterComponent } from './footer/footer.component';
     RouterModule,
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    HomeModule
 
   ],
   providers: [],
