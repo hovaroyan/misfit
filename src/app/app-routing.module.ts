@@ -7,6 +7,9 @@ const routes: Routes = [
   },
   { 
     path:"about", loadChildren: ()=>import('./about/about.module').then(mod=>mod.AboutModule)
+  },
+  { 
+    path:"services", loadChildren: ()=>import('./services/services.module').then(mod=>mod.ServicesModule)
   }
 ];
 
