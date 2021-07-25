@@ -1,0 +1,14 @@
+.h2 {
+    margin-bottom: 25px;
+}
+.h2-gallery {
+    color: #fff;
+}
+ .h2-gallery::before {
+    background-color: #000;
+    top: 65px;
+}
+.titlepage {
+    text-align: left;
+    padding-bottom: 48px;
+}
