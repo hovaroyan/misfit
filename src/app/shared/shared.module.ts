@@ -4,6 +4,7 @@ import { SharedAboutComponent } from './shared-about/shared-about.component';
 import { SharedBannerComponent } from './shared-banner/shared-banner.component';
 import { SharedServiceComponent } from './shared-service/shared-service.component';
 import { SharedNewsComponent } from './shared-news/shared-news.component';
+import { SharedTrainerComponent } from './shared-trainer/shared-trainer.component';
 
 
 
@@ -12,7 +13,8 @@ import { SharedNewsComponent } from './shared-news/shared-news.component';
     SharedAboutComponent,
     SharedBannerComponent,
     SharedServiceComponent,
-    SharedNewsComponent
+    SharedNewsComponent,
+    SharedTrainerComponent
   ],
   imports: [
     CommonModule
@@ -21,7 +23,8 @@ import { SharedNewsComponent } from './shared-news/shared-news.component';
     SharedAboutComponent,
     SharedBannerComponent,
     SharedServiceComponent,
-    SharedNewsComponent
+    SharedNewsComponent,
+    SharedTrainerComponent
   ]
 })
 export class SharedModule { }
