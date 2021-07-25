@@ -1,14 +1,21 @@
 .h2 {
     margin-bottom: 25px;
 }
-.h2-gallery {
+.h2-gallery-services {
     color: #fff;
 }
- .h2-gallery::before {
+ .h2-gallery-services::before {
     background-color: #000;
     top: 65px;
 }
 .titlepage {
     text-align: left;
     padding-bottom: 48px;
+}
+.h2-trainer {
+    color: #fff;
+}
+
+.h2-trainer::before {
+    background-color: #fff;
 }
