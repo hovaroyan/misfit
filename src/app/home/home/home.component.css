@@ -1,0 +1,17 @@
+.h2 {
+    margin-bottom: 25px;
+}
+.h2-gallery-services {
+    color: #fff;
+}
+ .h2-gallery-services::before {
+    background-color: #000;
+    top: 65px;
+}
+.h2-trainer {
+    color: #fff;
+}
+
+.h2-trainer::before {
+    background-color: #fff;
+}

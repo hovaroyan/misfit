@@ -3,15 +3,22 @@ import { CommonModule } from '@angular/common';
 
 import { ServicesRoutingModule } from './services-routing.module';
 import { ServicesComponent } from './services.component';
+import { ServiceHeaderComponent } from './service-header/service-header.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
   declarations: [
-    ServicesComponent
+    ServicesComponent,
+    ServiceHeaderComponent
   ],
   imports: [
     CommonModule,
-    ServicesRoutingModule
+    ServicesRoutingModule,
+    SharedModule
+  ],
+  exports: [
+
   ]
 })
 export class ServicesModule { }
