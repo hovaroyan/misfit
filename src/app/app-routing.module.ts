@@ -10,6 +10,9 @@ const routes: Routes = [
   },
   { 
     path:"services", loadChildren: ()=>import('./services/services.module').then(mod=>mod.ServicesModule)
+  },
+  { 
+    path:"news", loadChildren: ()=>import('./news/news.module').then(mod=>mod.NewsModule)
   }
 ];
 
