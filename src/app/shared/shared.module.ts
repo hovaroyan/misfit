@@ -6,6 +6,7 @@ import { SharedServiceComponent } from './shared-service/shared-service.componen
 import { SharedNewsComponent } from './shared-news/shared-news.component';
 import { SharedTrainerComponent } from './shared-trainer/shared-trainer.component';
 import { SharedGalleryComponent } from './shared-gallery/shared-gallery.component';
+import { SharedContactComponent } from './shared-contact/shared-contact.component';
 
 
 
@@ -16,7 +17,8 @@ import { SharedGalleryComponent } from './shared-gallery/shared-gallery.componen
     SharedServiceComponent,
     SharedNewsComponent,
     SharedTrainerComponent,
-    SharedGalleryComponent
+    SharedGalleryComponent,
+    SharedContactComponent
   ],
   imports: [
     CommonModule
@@ -27,7 +29,8 @@ import { SharedGalleryComponent } from './shared-gallery/shared-gallery.componen
     SharedServiceComponent,
     SharedNewsComponent,
     SharedTrainerComponent,
-    SharedGalleryComponent
+    SharedGalleryComponent,
+    SharedContactComponent
   ]
 })
 export class SharedModule { }

@@ -19,6 +19,9 @@ const routes: Routes = [
   },
   { 
     path:"gallery", loadChildren: ()=>import('./gallery/gallery.module').then(mod=>mod.GalleryModule)
+  },
+  { 
+    path:"contact", loadChildren: ()=>import('./contact/contact.module').then(mod=>mod.ContactModule)
   }
 ];
 
